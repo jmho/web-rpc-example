@@ -1,0 +1,8 @@
+webrpc = v1
+name = test
+version = v0.0.1
+
+error 1001 PingFailed "Failed to ping" HTTP 400
+
+service ExampleService
+    - Ping() => (pong: string)

@@ -1,0 +1,6 @@
+webrpc = v1
+name = main
+version = v0.0.1
+
+import
+  - ./test.ridl
